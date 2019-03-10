@@ -1,0 +1,288 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <title>第一个mod · 纪华裕的mod制作之旅</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="纪华裕">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/jihuayu/GoingAges" target="_blank" class="custom-link">源代码</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    [第1部分]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="1.html">
+            
+                <a href="1.html">
+            
+                    
+                    第一个mod
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第一个mod</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7B2C;&#x4E00;&#x4E2A;mod">&#x7B2C;&#x4E00;&#x4E2A;mod</h1>
+<h2 id="&#x4E3B;&#x7C7B;">&#x4E3B;&#x7C7B;</h2>
+<p>&#x65B0;&#x7248;&#x7684;forge&#xFF0C;@mod&#x6CE8;&#x89E3;&#x53EA;&#x9700;&#x8981;&#x5199;&#x4E0A;&#x4E00;&#x4E2A;&#x5185;&#x5BB9;&#x2014;&#x2014;modid&#x5373;&#x53EF;&#xFF0C;&#x6211;&#x4EEC;&#x6709;&#x5982;&#x4E0B;&#x7684;&#x4EE3;&#x7801;:</p>
+<pre><code class="lang-JAVA">    <span class="hljs-keyword">package</span> com.example.examplemod;
+
+    <span class="hljs-keyword">import</span> net.minecraftforge.fml.common.Mod;
+
+    <span class="hljs-meta">@Mod</span>(<span class="hljs-string">&quot;examplemod&quot;</span>)
+    <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ExampleMod</span>
+    </span>{
+
+    }
+</code></pre>
+<h2 id="&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x914D;&#x7F6E;&#x6587;&#x4EF6;</h2>
+<p>&#x65B0;&#x7248;&#x7684;forge&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6539;&#x4E3A;&#x4E86;toml&#x683C;&#x5F0F;&#xFF0C;&#x8BED;&#x6CD5;&#x548C;&#x4E4B;&#x524D;&#x4E0D;&#x592A;&#x4E00;&#x6837;&#xFF0C;&#x4F46;&#x662F;&#x4E00;&#x4E2A;&#x6700;&#x57FA;&#x672C;&#x7684;mod&#x5E94;&#x8BE5;&#x6709;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;:</p>
+<pre><code>    modLoader=&quot;javafml&quot;
+    loaderVersion=&quot;[25,)&quot;
+    [[mods]]
+    modId=&quot;examplemod&quot;
+    version=&quot;0.1.0&quot;
+    displayName=&quot;Example Mod&quot;
+</code></pre><p>&#x5176;&#x4E2D;modId&#x90E8;&#x5206;&#x548C;@mod&#x6CE8;&#x89E3;&#x7684;&#x9700;&#x8981;&#x4E00;&#x81F4;&#xFF0C;&#x5176;&#x4ED6;&#x5C31;&#x662F;&#x81EA;&#x5DF1;mod&#x7684;&#x60C5;&#x51B5;&#x3002;</p>
+<h2 id="&#x6548;&#x679C;">&#x6548;&#x679C;</h2>
+<p><img src="pics/1.1.png" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第一个mod","level":"1.2.1","depth":2,"previous":{"title":"[第1部分]","level":"1.2","depth":1,"ref":"","articles":[{"title":"第一个mod","level":"1.2.1","depth":2,"path":"1.md","ref":"./1.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["theme-default@1.0.5","pageview-count","baidu-tongji","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"livereload":{},"baidu-tongji":{"url":"https://hm.baidu.com/hm.js","token":"6a641cc7b18129b1e31c25e420239ac4"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","author":"纪华裕","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"纪华裕的mod制作之旅","language":"zh-hans","links":{"sidebar":{"源代码":"https://github.com/jihuayu/GoingAges"}},"gitbook":"3.2.3","description":"此gitbook记录了本人学习minecraft-mod(1.12.2)制作过程、心得、和经验。"},"file":{"path":"1.md","mtime":"2019-03-10T10:59:08.129Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-10T11:08:46.359Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-baidu-tongji/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

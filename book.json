@@ -1,0 +1,24 @@
+{
+    "title": "纪华裕的mod制作之旅",
+    "author": "纪华裕",
+    "description": "此gitbook记录了本人学习minecraft-mod(1.12.2)制作过程、心得、和经验。",
+    "language": "zh-hans", 
+    "gitbook": "3.2.3", 
+    "styles": {
+      "website": "./styles/website.css" 
+    },
+    "structure": {
+      "readme": "README.md" 
+    },
+    "links": {
+      "sidebar": {
+        "源代码": "https://github.com/jihuayu/GoingAges" 
+      }
+    },
+    "plugins": ["theme-default@1.0.5", "pageview-count","baidu-tongji"],
+    "pluginsConfig": {
+      "baidu-tongji": {
+          "token": "6a641cc7b18129b1e31c25e420239ac4"
+      }
+  }
+  }
